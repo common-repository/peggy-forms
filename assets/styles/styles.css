@@ -1,0 +1,33 @@
+.update-nag, #wpfooter {
+	display: none;
+}
+.peggyforms-container--fullscreen {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10000000000222222;
+	overflow: hidden;
+	margin: 0;
+	background: white;
+}
+
+.peggyforms-container--fullscreen .header {
+	padding: 10px;
+	background: #eee;
+}
+.peggyforms-container--fullscreen .header .logo {
+	margin: 0 0 0 14px !important;
+}
+.peggyforms-container .fullscreen-toggler {
+	float: right;
+	font-size: 20px;
+	line-height: 50px;
+	cursor: pointer;
+}
+
+.peggyforms-container:not(.peggyforms-container--fullscreen) .fullscreen-toggler--close,
+.peggyforms-container--fullscreen .fullscreen-toggler--open {
+	display: none;
+}

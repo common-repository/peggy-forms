@@ -1,0 +1,19 @@
+.pf-gutenberg-container {
+	width:100%;
+}
+
+.pf-gutenberg-container img {
+	margin:auto;
+	display:block;
+	max-height:5rem;
+}
+
+.pf-gutenberg-container > div {
+	display:flex;
+	justify-content:center;
+	margin-top:2rem;
+}
+
+.pf-gutenberg-container > div > *:not(:last-child) {
+	margin-right:1rem;
+}
